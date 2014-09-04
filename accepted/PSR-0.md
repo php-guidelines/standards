@@ -1,6 +1,8 @@
 Autoloading Standard
 ====================
 
+**This document is exactly the same as [PHP-FIG](http://www.php-fig.org) PSR-0.**
+
 The following describes the mandatory requirements that must be adhered
 to for autoloader interoperability.
 
