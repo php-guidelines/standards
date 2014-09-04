@@ -131,7 +131,8 @@ Code MUST use an indent of 4 spaces, and MUST NOT use tabs for indenting.
 
 PHP [keywords] MUST be in lower case.
 
-The PHP constants `true`, `false`, and `null` MUST be in lower case.
+The PHP constants `true`, `false`, and `null` MUST be in upper case
+or in lower case, but not mixed.
 
 [keywords]: http://php.net/manual/en/reserved.keywords.php
 
