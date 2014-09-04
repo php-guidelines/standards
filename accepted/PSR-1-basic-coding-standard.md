@@ -1,6 +1,8 @@
 Basic Coding Standard
 =====================
 
+**This document is exactly the same as [PHP-FIG] PSR-1.**
+
 This section of the standard comprises what should be considered the standard
 coding elements that are required to ensure a high level of technical
 interoperability between shared PHP code.
@@ -12,6 +14,7 @@ interpreted as described in [RFC 2119].
 [RFC 2119]: http://www.ietf.org/rfc/rfc2119.txt
 [PSR-0]: https://github.com/php-fig/fig-standards/blob/master/accepted/PSR-0.md
 [PSR-4]: https://github.com/php-fig/fig-standards/blob/master/accepted/PSR-4-autoloader.md
+[PHP-FIG]: http://www.php-fig.org
 
 
 1. Overview

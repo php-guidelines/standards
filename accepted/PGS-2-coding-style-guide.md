@@ -1,6 +1,8 @@
 Coding Style Guide
 ==================
 
+**This document is the same as [PHP-FIG] PSR-2 with [two differencies].**
+
 This guide extends and expands on [PSR-1], the basic coding standard.
 
 The intent of this guide is to reduce cognitive friction when scanning code
@@ -20,6 +22,8 @@ interpreted as described in [RFC 2119].
 [RFC 2119]: http://www.ietf.org/rfc/rfc2119.txt
 [PSR-0]: https://github.com/php-fig/fig-standards/blob/master/accepted/PSR-0.md
 [PSR-1]: https://github.com/php-fig/fig-standards/blob/master/accepted/PSR-1-basic-coding-standard.md
+[PHP-FIG]: http://www.php-fig.org
+[two differencies]: https://github.com/php-group/standards/compare/psr...pgs
 
 
 1. Overview

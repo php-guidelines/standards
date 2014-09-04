@@ -1,5 +1,7 @@
 # Autoloader
 
+**This document is exactly the same as [PHP-FIG] PSR-4.**
+
 The key words "MUST", "MUST NOT", "REQUIRED", "SHALL", "SHALL NOT", "SHOULD",
 "SHOULD NOT", "RECOMMENDED", "MAY", and "OPTIONAL" in this document are to be
 interpreted as described in [RFC 2119](http://tools.ietf.org/html/rfc2119).
@@ -76,3 +78,4 @@ as part of the specification and MAY change at any time.
 [autoloading]: http://php.net/autoload
 [PSR-0]: https://github.com/php-fig/fig-standards/blob/master/accepted/PSR-0.md
 [examples file]: https://github.com/php-fig/fig-standards/blob/master/accepted/PSR-4-autoloader-examples.md
+[PHP-FIG]: http://www.php-fig.org
