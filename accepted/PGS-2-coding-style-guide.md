@@ -23,7 +23,7 @@ interpreted as described in [RFC 2119].
 [PSR-0]: PSR-0.md
 [PSR-1]: PSR-1-basic-coding-standard.md
 [PHP-FIG]: http://www.php-fig.org
-[two differencies]: https://github.com/php-group/standards/compare/psr...pgs
+[two differencies]: https://github.com/php-guidelines/standards/compare/psr...pgs
 
 
 1. Overview
