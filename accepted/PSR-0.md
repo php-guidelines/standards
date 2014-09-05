@@ -1,7 +1,7 @@
 Autoloading Standard
 ====================
 
-**This document is exactly the same as [PHP-FIG](http://www.php-fig.org) PSR-0.**
+**This document is almost the same as [PHP-FIG](http://www.php-fig.org) PSR-0 (except the fact that nothing is strictly required).**
 
 The following describes the mandatory requirements that must be adhered
 to for autoloader interoperability.
@@ -9,11 +9,11 @@ to for autoloader interoperability.
 Mandatory
 ---------
 
-* A fully-qualified namespace and class must have the following
+* A fully-qualified namespace and class can have the following
   structure `\<Vendor Name>\(<Namespace>\)*<Class Name>`
-* Each namespace must have a top-level namespace ("Vendor Name").
+* Each namespace can have a top-level namespace ("Vendor Name").
 * Each namespace can have as many sub-namespaces as it wishes.
-* Each namespace separator is converted to a `DIRECTORY_SEPARATOR` when
+* Each namespace separator may be converted to a `DIRECTORY_SEPARATOR` when
   loading from the file system.
 * Each `_` character in the CLASS NAME is converted to a
   `DIRECTORY_SEPARATOR`. The `_` character has no special meaning in the
@@ -30,6 +30,9 @@ Examples
 * `\Symfony\Core\Request` => `/path/to/project/lib/vendor/Symfony/Core/Request.php`
 * `\Zend\Acl` => `/path/to/project/lib/vendor/Zend/Acl.php`
 * `\Zend\Mail\Message` => `/path/to/project/lib/vendor/Zend/Mail/Message.php`
+* `\Nette\Application\AbortException` => `/path/to/project/lib/Application/exceptions.php`
+* `\Nette\Mail\SmtpException` => `/path/to/project/lib/Mail/SmtpMailer.php`
+* `\App\RouterFactory` => `/path/to/app/router/RouterFactory.php`
 
 Underscores in Namespaces and Class Names
 -----------------------------------------
