@@ -7,11 +7,10 @@ These standards are exactly the same as [PHP-FIG] PSR standards, with two differ
 - you MAY write PHP constants `TRUE`, `FALSE`, and `NULL` in upper case
 
 Basically, PGS standards are suitable for all PHP developers who want to be compliant
-with well-known standards from the PHP-FIG, but also use tabs instead of spaces.
+with well-known standards from the PHP-FIG, but are not interested in whitespace holy wars.
 
-
-What standards have been passed so far?
----------------------------------------
+What standards are we talking about?
+------------------------------------
 
 - [PSR-0](accepted/PSR-0.md) - Autoloading Standard
 - [PSR-1](accepted/PSR-1-basic-coding-standard.md) - Basic Coding Standard
@@ -22,15 +21,33 @@ What standards have been passed so far?
 Rationale
 ---------
 
-Once used character for indentation is extremely difficult to change, especially for bigger
-projects. Therefore standard [PGS-2](accepted/PGS-2-coding-style-guide.md) in comparsion
-to the PSR-2 allows using tabs for indentation.
+Some people like tabs, some like spaces. The 30 % of PHP projects use tabs. We
+respect freedom to choice, especially when unsignificant whitespace can be converted
+automatically, for example using Git:
 
-Since the [PHP documentation writes](http://php.net/manual/en/types.comparisons.php)
-constants `TRUE`, `FALSE` and `NULL` in upper case letters, allows PGS-2 in comparsion
-to the PSR-2 to write them in upper case too.
+```
+git config --global filter.tabspace.smudge 'unexpand --tabs=4 --first-only'
+git config --global filter.tabspace.clean 'expand --tabs=4 --initial'
+```
 
-Using tabs or capital letters is optional. You must use the same variant in all codes
-from one Vendor.
+(You should also configure Git to [convert line endings](https://help.github.com/articles/dealing-with-line-endings).)
+
+Once chosen character for indentation is difficult to change, especially for bigger
+projects, because change will make harder to deal with Git history and existing pull requests.
+
+Therefore standard [PGS-2](accepted/PGS-2-coding-style-guide.md) in comparsion to
+the PSR-2 allows using tabs for indentation.
+
+---
+
+Whole [PHP documentation uses](http://php.net/manual/en/types.comparisons.php)
+constants `TRUE`, `FALSE` and `NULL` written in upper letters. PSR-1 itself
+states that constants MUST be in upper cases. Therefore PGS-2 allows in comparsion
+to the PSR-2 to write them in upper cases too.
+
+---
+
+Using tabs or capital letters is matter of your choice. But you MUST use the same
+style consistently across all files in whole Vendor namespace.
 
 [PHP-FIG]: http://www.php-fig.org
