@@ -20,8 +20,8 @@ The key words "MUST", "MUST NOT", "REQUIRED", "SHALL", "SHALL NOT", "SHOULD",
 interpreted as described in [RFC 2119].
 
 [RFC 2119]: http://www.ietf.org/rfc/rfc2119.txt
-[PSR-0]: https://github.com/php-fig/fig-standards/blob/master/accepted/PSR-0.md
-[PSR-1]: https://github.com/php-fig/fig-standards/blob/master/accepted/PSR-1-basic-coding-standard.md
+[PSR-0]: PSR-0.md
+[PSR-1]: PSR-1-basic-coding-standard.md
 [PHP-FIG]: http://www.php-fig.org
 [two differencies]: https://github.com/php-group/standards/compare/psr...pgs
 
@@ -72,7 +72,7 @@ use OtherVendor\OtherPackage\BazClass;
 
 class Foo extends Bar implements FooInterface
 {
-    public function sampleFunction($a, $b = null)
+    public function sampleFunction($a, $b = NULL)
     {
         if ($a === $b) {
             bar();
@@ -237,7 +237,7 @@ namespace Vendor\Package;
 
 class ClassName
 {
-    public $foo = null;
+    public $foo = NULL;
 }
 ```
 
