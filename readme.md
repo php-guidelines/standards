@@ -22,7 +22,7 @@ What standards have been passed so far?
 Rationale
 ---------
 
-Once used character for indentation is extremely difficult to change, especially for bigger
+The 30 % of PHP projects use tabs. Once used character for indentation is extremely difficult to change, especially for bigger
 projects. Therefore standard [PGS-2](accepted/PGS-2-coding-style-guide.md) in comparsion
 to the PSR-2 allows using tabs for indentation.
 
