@@ -22,7 +22,7 @@ Rationale
 ---------
 
 Some people like tabs, some like spaces. The 30 % of PHP projects use tabs. We
-respect freedom to choice, especially when unsignificant whitespace can be converted
+respect freedom of choice, especially when unsignificant whitespace can be converted
 automatically, for example using Git:
 
 ```
@@ -32,8 +32,8 @@ git config --global filter.tabspace.clean 'expand --tabs=4 --initial'
 
 (You should also configure Git to [convert line endings](https://help.github.com/articles/dealing-with-line-endings).)
 
-Once chosen character for indentation is difficult to change, especially for bigger
-projects, because change will make harder to deal with Git history, rebasing existing
+Once chosen indentation is difficult to change, especially in bigger
+projects, because such change will make it harder to deal with Git history, rebasing existing
 branches and pull requests, etc.
 
 Therefore standard [PGS-2](accepted/PGS-2-coding-style-guide.md) in comparsion to
@@ -42,13 +42,13 @@ the PSR-2 allows using tabs for indentation.
 ---
 
 Whole [PHP documentation uses](http://php.net/manual/en/types.comparisons.php)
-constants `TRUE`, `FALSE` and `NULL` written in upper letters. PSR-1 itself
-states that constants MUST be in upper cases. Therefore PGS-2 allows in comparsion
-to the PSR-2 to write them in upper cases too.
+constants `TRUE`, `FALSE` and `NULL` written in upper case letters. PSR-1 itself
+states that constants MUST be in upper case. Therefore PGS-2 allows in comparsion
+to the PSR-2 to write them in upper case too.
 
 ---
 
 Using tabs or capital letters is matter of your choice. But you MUST use the same
-style consistently across all files in whole Vendor namespace.
+style consistently across all files in whole vendor namespace.
 
 [PHP-FIG]: http://www.php-fig.org
