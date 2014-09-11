@@ -22,7 +22,7 @@ Rationale
 ---------
 
 Some people like tabs, some like spaces. The 30 % of PHP projects use tabs. We
-respect freedom to choice, especially when unsignificant whitespace can be converted
+respect freedom of choice, especially when unsignificant whitespace can be converted
 automatically, for example using Git:
 
 ```
