@@ -1,7 +1,7 @@
 PHP Guidelines
 ==============
 
-These recommendations are exactly the same as [PHP-FIG] PSR-0 to PSR-4 standards, with two differencies:
+These recommendations are exactly the same as [PHP-FIG] PSR-0, 1, 2 and PSR-4 standards, with two differencies:
 
 - you MAY use tabs for indenting
 - you MAY write PHP constants `TRUE`, `FALSE`, and `NULL` in upper case
