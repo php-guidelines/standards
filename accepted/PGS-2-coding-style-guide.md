@@ -1,7 +1,7 @@
 Coding Style Guide
 ==================
 
-**This document is the same as [PHP-FIG] PSR-2 with [two differencies].**
+**This document is the same as [PHP-FIG] PSR-2 with [two differences].**
 
 This guide extends and expands on [PSR-1], the basic coding standard.
 
@@ -23,7 +23,7 @@ interpreted as described in [RFC 2119].
 [PSR-0]: PSR-0.md
 [PSR-1]: PSR-1-basic-coding-standard.md
 [PHP-FIG]: http://www.php-fig.org
-[two differencies]: https://github.com/php-guidelines/standards/compare/psr...pgs
+[two differences]: https://github.com/php-guidelines/standards/compare/psr...pgs
 
 
 1. Overview
